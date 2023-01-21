@@ -36,4 +36,5 @@ export default NextAuth({
     }),
   ],
   adapter: DynamoDBAdapter(client),
+  secret: "jajsd"
 })
