@@ -1,23 +1,13 @@
-import { useState } from 'react'
 import { signIn } from 'next-auth/react'
  
-const SignInForm = () => {
-  const [email, setEmail] = useState('')
- 
+const Header = () => {
   return (
-    <form>
-      <input
-        type="email"
-        value={email}
-        onChange={e => setEmail(e.target.value)}
-      />
-      <button
-        onClick={() => signIn('email', { email, callbackUrl: '/foo' })}
-      >
-        Sign in with Email
-      </button>
-    </form>
+    <header>
+      <nav>
+        <button onClick={() => signIn()}>Sign in</button>
+      </nav>
+    </header>
   )
 }
  
-export default SignInForm
+export default Header

@@ -20,7 +20,4 @@ export default NextAuth({
   ],
   adapter: MongoDBAdapter(clientPromise),
   secret: process.env.NEXT_AUTH_SECRET,
-  pages: {
-    signIn: '/auth/signin'
-}
 })
