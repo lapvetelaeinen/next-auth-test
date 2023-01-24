@@ -10,11 +10,12 @@ export default async (req, res) => {
     templateId: 'd-2884959049fc4ea28a77f81cbe3d742b',
     personalizations: [
         {
-            to: 'emma2002olo@gmail.com',
+            to: 'amanda.carlund@gmail.com',
             dynamicTemplateData: {
-                eventName: "DE VET DU",
-                ticketUrl: 'https://www.rougeumea.se/tickets/devetdu-fredag-10-feb/EA837B0BED9241A8B9CF751CD873963E',
+                eventName: "MYRA GRANBERG",
+                ticketUrl: 'https://www.rougeumea.se/tickets/myra-granberg-l_oe_rdag-25-feb/F8824A7DDDE4493985DCC1761E1CE829',
                 randomNumber: '45612',
+                realName: "MYRA GRANBERG"
             },
         },
     ],
